@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jabed Miah | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="assets/favIcon.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <!--This part is for the top navigation list-->
+    <nav id="nav-desktop">
+      <div class="logo">
+        <a href="#Hero">Jabed</a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <!--Creating a container for the mobile menu-->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!--The mian page:Hero-->
+    <section class="Hero">
+      <div class="picture">
+        <img src="assets/pfp.jpg" class="image" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Jabed</span></h1>
+        <h3 class="typing-text">I'm a <span id="animated-text"></span></h3>
+        <p>
+          Senior Computer Science student at Fordham University with a
+          passion<br />
+          for software engineering, cybersecurity, and applied AI — focused
+          on<br />
+          building smart, secure, and scalable solutions<br />
+          <br />
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/Jabed1234" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/joystar321"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jabed21/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://twitter.com/Jabed_Theasian"
+            target="_blank"
+            title="Twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="btn">
+          <div class="btn-group">
+            <a href="mailto:jmiah5@fordham.edu" class="btn">Contact Me</a>
+            <a href="/assets/8.TECHNICAL RESUME.pdf" class="btn" target="_blank"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Education-->
+    <section id="Education" class="Education">
+      <div id="particles-js"></div>
+      <h1>Education</h1>
+      <div class="title">
+        <h3 class="name">Fordam University</h3>
+        <h3 class="date">2022-2026</h3>
+      </div>
+      <div class="location">Bronx, New York</div>
+      <div class="bullet">
+        <ul>
+          <li>B.S in Computer Science(Expected May 2026)</li>
+          <li>Minor in cybersecurity</li>
+          <li>GPA: 3.3/4.0 | Dean's List</li>
+          <li>
+            Relevant Coursework:
+            <span
+              >Algorithms, Data structures, Data communication and network,
+              Database systems, Forensic computing, Machine learning, and
+              Computer organization</span
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="name" id="certificate">Additional Certificate</h3>
+        <div class="bullet">
+          <ul>
+            <li>
+              <a
+                class="link"
+                href="/assets/codepath cyb 101 certification copy.jpg"
+                target="_blank"
+                >Codepath: Intro to cybersecurity</a
+              >
+            </li>
+            <li>CodePath: Intermediate Cybersecurity(expected August 2025)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="Experience" class="Education">
+      <h1>Experience</h1>
+      <div style="color: #e9967a">
+        <!--Using specific font color for resume which is still red but easy on the eye-->
+        <div class="title">
+          <h3 class="name">Customer Service</h3>
+          <h3 class="date">August 2022-present</h3>
+        </div>
+        <div class="location" style="font-size: medium; font-style: normal">
+          Fordham University • Bronx, New York
+        </div>
+        <div class="bullet">
+          <ul style="font-weight: 500">
+            <li>
+              Provide department information to 20+ Fordham students, staff,
+              faculty, and non-Fordham individuals such as parking passes,
+              pricing, and campus department locations daily
+            </li>
+            <li>
+              Collaborate with the supervisor and five other student worker on
+              daily tasks/projects
+            </li>
+            <li>Track discounts and purchases in Excel daily</li>
+            <li>
+              Organize and maintain personal records of passes, purchases, and
+              drivers’ information
+            </li>
+          </ul>
+        </div>
+        <!--Second Experience-->
+        <div class="title" style="padding-top: 6rem">
+          <h3 class="name">Freelance C++ Tutor</h3>
+          <h3 class="date">June 2024-September 2024</h3>
+        </div>
+        <div class="location" style="font-size: medium; font-style: normal">
+          Superprof • Remote
+        </div>
+        <div class="bullet">
+          <ul style="font-weight: 500">
+            <li>
+              Tutored beginner to intermediate students, including incoming
+              college freshmen, on the fundamentals of C++ programming
+            </li>
+            <li>
+              Created and delivered personalized lesson plans, including
+              PowerPoint presentations, tailored to each student’s learning pace
+              and preferences
+            </li>
+            <li>
+              Coordinated flexible session schedules to meet students'
+              availability and ensure effective learning outcomes
+            </li>
+            <li>
+              Provided additional resources such as coding exercises, reference
+              materials, and study guides to support student success
+            </li>
+            <li>
+              Focused on improving students' problem-solving skills and
+              foundational knowledge in programming
+            </li>
+          </ul>
+        </div>
+        <!--Third Experience-->
+        <div class="title" style="padding-top: 6rem">
+          <h3 class="name">Assistant Teacher</h3>
+          <h3 class="date">June 2022-August 2022</h3>
+        </div>
+        <div class="location" style="font-size: medium; font-style: normal">
+          SYEP • Remote
+        </div>
+        <div class="bullet">
+          <ul style="font-weight: 500">
+            <li>
+              Communicated and tutored ESL 15+ eighth-grade students in English
+              and Math weekly
+            </li>
+            <li>
+              Organized and managed educational activities during recess weekly
+            </li>
+            <li>
+              Assisted classroom teacher with lesson planning for the academic
+              year
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="Project" class="Education Projects">
+      <h1>Projects</h1>
+      <div id="particles-project"></div>
+      <div class="project-container">
+        <a
+          href="https://github.com/Jabed1234/Eye-Gaze-Prediction"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="card-content">
+            <h3>Eye Gaze Prediction</h3>
+            <p>
+              Used CNN and Random Forest to predict gaze direction using the
+              4Quant dataset.
+            </p>
+            <span class="hover-icon">🔗</span>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Jabed1234/Computer-Science-Portfolio"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="card-content">
+            <h3>Portfolio Website</h3>
+            <p>
+              Responsive portfolio built with HTML, CSS, JavaScript, and
+              animated visuals.
+            </p>
+            <span class="hover-icon">🔗</span>
+          </div>
+        </a>
+
+        <a href="#" class="project-card">
+          <div class="card-content">
+            <h3>Upcoming Project</h3>
+            <p>More on the way.</p>
+            <span class="hover-icon">🔗</span>
+          </div>
+        </a>
+
+        <a href="#" class="project-card">
+          <div class="card-content">
+            <h3>Upcoming Project</h3>
+            <p>More on the way.</p>
+            <span class="hover-icon">🔗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="Skills" class="Education">
+      <div id="particles-skills"></div>
+
+      <h1>Skills</h1>
+      <div class="skill-group">
+        <h2 style="color: #ed0a0a">Languages:</h2>
+        <div class="container">
+          <span class="skill-tag python"
+            >&nbsp;&nbsp;Python &nbsp;&nbsp;&nbsp;<i
+              class="devicon-python-plain colored"
+              >&nbsp;</i
+            >
+          </span>
+          <span class="skill-tag cplusplus"
+            >&nbsp;&nbsp;C++ &nbsp;&nbsp;&nbsp;<i
+              class="devicon-cplusplus-plain colored"
+              >&nbsp;</i
+            ></span
+          >
+          <span class="skill-tag javascript"
+            >&nbsp;&nbsp;JavaScript &nbsp;&nbsp;&nbsp;<i
+              class="devicon-javascript-plain colored"
+              >&nbsp;</i
+            ></span
+          >
+          <span class="skill-tag html"
+            >&nbsp;&nbsp;HTML &nbsp;&nbsp;&nbsp;<i
+              class="devicon-html5-plain colored"
+              >&nbsp;</i
+            ></span
+          >
+          <span class="skill-tag css"
+            >&nbsp;&nbsp;CSS &nbsp;&nbsp;&nbsp;<i
+              class="devicon-css3-plain colored"
+              >&nbsp;</i
+            ></span
+          >
+          <span class="skill-tag swift"
+            >&nbsp;&nbsp;Swift &nbsp;&nbsp;&nbsp;<i
+              class="devicon-swift-plain colored"
+              >&nbsp;</i
+            ></span
+          >
+        </div>
+
+        <h2 style="color: #ed0a0a" class="h2">Frameworks</h2>
+        <div class="container frame">
+          <span class="skill-tag javascript"
+            >&nbsp;&nbsp;SwiftUI &nbsp;&nbsp;&nbsp;<i
+              class="devicon-swift-plain colored"
+              >&nbsp;</i
+            >
+          </span>
+          <span class="skill-tag html">
+            &nbsp;&nbsp;Tailwind CSS&nbsp;&nbsp;&nbsp;
+            <i class="devicon-tailwindcss-plain colored">&nbsp;</i>
+          </span>
+        </div>
+
+        <h2 class="h2" style="color: #ed0a0a">Tools | Platforms</h2>
+        <div class="container AI">
+          <span class="skill-tag cplusplus"
+            >&nbsp;&nbsp;Git &nbsp;<i class="devicon-git-plain colored"></i
+            >&nbsp;&nbsp;</span
+          >
+          <span class="skill-tag swift"
+            >&nbsp;&nbsp;VS Code &nbsp;<i
+              class="devicon-vscode-plain colored"
+            ></i
+            >&nbsp;&nbsp;</span
+          >
+          <span class="skill-tag github"
+            >&nbsp;&nbsp;Github &nbsp;&nbsp;&nbsp;<i
+              class="devicon-github-original colored"
+            ></i
+            >&nbsp;&nbsp;</span
+          >
+          >
+          <span class="skill-tag firebase"
+            >&nbsp;&nbsp;Firebase &nbsp;&nbsp;&nbsp;<img
+              src="https://cdn.simpleicons.org/firebase"
+              alt="Firebase Logo"
+              width="24"
+            />
+            &nbsp;&nbsp;</span
+          >
+          <span class="skill-tag xcode"
+            >&nbsp;&nbsp;Xcode &nbsp;&nbsp;&nbsp;<i
+              class="devicon-xcode-plain colored"
+            ></i
+            >&nbsp;&nbsp;</span
+          >
+          <span class="skill-tag ubuntu"
+            >&nbsp;&nbsp;Ubuntu &nbsp;&nbsp;&nbsp;<i
+              class="devicon-ubuntu-plain colored"
+            ></i>
+            &nbsp;&nbsp;</span
+          >
+        </div>
+        <h2 class="h2" style="color: #ed0a0a">AI | ML Tools</h2>
+        <div class="container AI">
+          <!-- TensorFlow -->
+          <span class="skill-tag css">
+            &nbsp;&nbsp;TensorFlow &nbsp;
+            <i class="devicon-tensorflow-original colored"></i>
+            &nbsp;&nbsp;
+          </span>
+
+          <!-- Keras -->
+          <span class="skill-tag html">
+            &nbsp;&nbsp;Keras &nbsp;
+            <i class="devicon-keras-plain colored"></i>
+            &nbsp;&nbsp;
+          </span>
+
+          <!-- Jupyter -->
+          <span class="skill-tag python">
+            &nbsp;&nbsp;Jupyter &nbsp;
+            <i class="devicon-jupyter-plain colored"></i>
+            &nbsp;&nbsp;
+          </span>
+
+          <!-- Python -->
+          <span class="skill-tag python">
+            &nbsp;&nbsp;Python &nbsp;
+            <i class="devicon-python-plain colored"></i>
+            &nbsp;&nbsp;
+          </span>
+
+          <!-- Pandas (optional, commonly used in ML) -->
+          <!-- Pandas -->
+          <span class="skill-tag pandas">
+            &nbsp;&nbsp;Pandas &nbsp;
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+              alt="Pandas Logo"
+              style="width: 24px; height: 24px; vertical-align: middle"
+            />
+            &nbsp;&nbsp;
+          </span>
+
+          <!-- NumPy -->
+          <span class="skill-tag xcode">
+            &nbsp;&nbsp;NumPy &nbsp;
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+              alt="NumPy Logo"
+              style="width: 24px; height: 24px; vertical-align: middle"
+            />
+            &nbsp;&nbsp;
+          </span>
+        </div>
+
+        <h2 style="color: #ed0a0a">Cybersecurity Tools</h2>
+        <div class="container AI">
+          <div class="marquee-wrapper">
+            <div class="marquee-content">
+              <!-- Docker -->
+              <span class="skill-tag html">
+                &nbsp;&nbsp;Docker&nbsp;&nbsp;<i
+                  class="devicon-docker-plain colored"
+                ></i
+                >&nbsp;&nbsp;
+              </span>
+
+              <!-- Wireshark -->
+              <span class="skill-tag css">
+                &nbsp;&nbsp;Wireshark&nbsp;&nbsp;🦈&nbsp;&nbsp;
+              </span>
+
+              <!-- Metasploit -->
+              <span class="skill-tag javascript">
+                &nbsp;&nbsp;Metasploit&nbsp;&nbsp;🔧&nbsp;&nbsp;
+              </span>
+
+              <!-- Steghide -->
+              <span class="skill-tag pandas">
+                &nbsp;&nbsp;Steghide&nbsp;&nbsp;🕵️‍♂️&nbsp;&nbsp;
+              </span>
+
+              <!-- Ubuntu -->
+              <span class="skill-tag ubuntu">
+                &nbsp;&nbsp;Ubuntu&nbsp;&nbsp;<i
+                  class="devicon-ubuntu-plain colored"
+                ></i
+                >&nbsp;&nbsp;
+              </span>
+
+              <!-- Autopsy -->
+              <span class="skill-tag github">
+                &nbsp;&nbsp;Autopsy&nbsp;&nbsp;🔍&nbsp;&nbsp;
+              </span>
+
+              <!-- FTK Imager -->
+              <span class="skill-tag firebase">
+                &nbsp;&nbsp;FTK Imager&nbsp;&nbsp;🗂️&nbsp;&nbsp;
+              </span>
+              <!--Second Loop-->
+              <span class="skill-tag html">
+                &nbsp;&nbsp;Docker&nbsp;&nbsp;<i
+                  class="devicon-docker-plain colored"
+                ></i
+                >&nbsp;&nbsp;
+              </span>
+
+              <!-- Wireshark -->
+              <span class="skill-tag css">
+                &nbsp;&nbsp;Wireshark&nbsp;&nbsp;🦈&nbsp;&nbsp;
+              </span>
+
+              <!-- Metasploit -->
+              <span class="skill-tag javascript">
+                &nbsp;&nbsp;Metasploit&nbsp;&nbsp;🔧&nbsp;&nbsp;
+              </span>
+
+              <!-- Steghide -->
+              <span class="skill-tag pandas">
+                &nbsp;&nbsp;Steghide&nbsp;&nbsp;🕵️‍♂️&nbsp;&nbsp;
+              </span>
+
+              <!-- Ubuntu -->
+              <span class="skill-tag ubuntu">
+                &nbsp;&nbsp;Ubuntu&nbsp;&nbsp;<i
+                  class="devicon-ubuntu-plain colored"
+                ></i
+                >&nbsp;&nbsp;
+              </span>
+
+              <!-- Autopsy -->
+              <span class="skill-tag github">
+                &nbsp;&nbsp;Autopsy&nbsp;&nbsp;🔍&nbsp;&nbsp;
+              </span>
+
+              <!-- FTK Imager -->
+              <span class="skill-tag firebase">
+                &nbsp;&nbsp;FTK Imager&nbsp;&nbsp;🗂️&nbsp;&nbsp;
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" class="Education contact-section">
+      <h1>Contact</h1>
+      <section id="Contact" class="contact-section">
+        <form class="contact-form" id="myform">
+          <div class="form-grid">
+            <div class="left-fields">
+              <input type="text" placeholder="Full Name" required name="name" />
+              <input type="email" placeholder="Email" required name="email" />
+              <input type="tel" placeholder="Phone Number" name="phoneNumber" />
+              <input type="text" placeholder="Subject" name="subject" />
+            </div>
+            <div class="right-field">
+              <textarea placeholder="Your Message" required name="message"></textarea>
+            </div>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2025 Jabed Miah. All Rights Reserved.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
+      target="blank"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+/* Desktop styles (default) */
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 34vh;
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0.93);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 60px;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+    border: 1px solid #b74b4b;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .bar {
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+@media (max-width: 768px) {
+  .Hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+  }
+
+  .picture {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .image {
+    height: 40rem;
+  }
+
+  .home-content {
+    align-items: center;
+    padding: 0;
+  }
+
+  .home-content h1,
+  .home-content h3,
+  .home-content p {
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: start;
+    margin-left: 0;
+    margin-right: 17rem;
+  }
+  .btn-group {
+    justify-content: flex-start; /* aligns left instead of center */
+    margin-left: 0rem; /* or tweak the value as needed */
+    margin-right: 4rem;
+  }
+  .Education {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+  #Contact {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding: 10vh 0vw;
+    max-width: 100%;
+  }
+  #Skills {
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Optional: limit on large screens */
+    margin: 0 0; /* Center it if there's a max-width */
+    box-sizing: content-box;
+    /* Include padding in total width */
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding: 10vh 0vw;
+    min-width: 10%;
+  }
+  .skill-tag {
+    font-size: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  skills-group {
+    font-size: smaller;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .container {
+    height: 10rem;
+  }
+}
+@media (max-width: 1189px) {
+  .image {
+    width: 80%;
+    max-width: none; /* optional override */
+  }
+  .skill-group {
+    overflow-x:auto;
+    white-space: nowrap;
+  }
+
+}
