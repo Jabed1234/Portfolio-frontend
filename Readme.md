@@ -102,7 +102,7 @@ json
 ```
 
 
-###📈 Future Enhancements
+### 📈 Future Enhancements
 🌱 Add dark mode toggle for better accessibility
 
 📨 Inline form validation to prevent incomplete submissions
@@ -111,7 +111,7 @@ json
 
 🌐 Add multi-language support for global visitors
 
-###📄 License
+### 📄 License
 MIT License © 2025 Jabed Miah
 
 text
