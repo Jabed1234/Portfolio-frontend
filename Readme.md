@@ -85,8 +85,8 @@ https://portfolio-backend-vk0m.onrender.com/submit-form
 
 ```json
 {
-  "name": "Jabed Miah",
-  "email": "jmiah5@fordham.edu",
+  "name": "Gurpreet Dawud Zaman",
+  "email": "rzaman5@fordham.edu",
   "message": "Hi there, this is a test message!",
   "phoneNumber": "3472697248",
   "subject": "First Contact"
