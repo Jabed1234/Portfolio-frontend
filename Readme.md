@@ -49,9 +49,10 @@ User submits contact form → Frontend sends API request → Backend validates &
    ```bash
    git clone https://github.com/Jabed1234/Portfolio-frontend.git
    cd Portfolio-frontend
-Open index.html in your browser
 
-Double-click index.html, or
+   ```
+°Open index.html in your browser
+°Double-click index.html, or
 
 Run:
 
