@@ -75,6 +75,7 @@ open index.html
 The contact form connects to the backend API to store submissions.
 ```
 
+---
 
 ### Endpoint:
 
@@ -101,8 +102,9 @@ json
 }
 ```
 
+---
 
-### 📈 Future Enhancements
+### 📈 Future Enhancements:
 🌱 Add dark mode toggle for better accessibility
 
 📨 Inline form validation to prevent incomplete submissions
@@ -110,8 +112,9 @@ json
 📷 Optimize images for faster load times
 
 🌐 Add multi-language support for global visitors
+---
 
-### 📄 License
+### 📄 License:
 MIT License © 2025 Jabed Miah
 
 text
