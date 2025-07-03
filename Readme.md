@@ -82,12 +82,22 @@ https://portfolio-backend-vk0m.onrender.com/submit-form
 
 ### Example Payload:
 
-```json
 
+```json
 {
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
-  "message": "Hello Jabed, your portfolio is impressive!"
+  "name": "Jabed Miah",
+  "email": "jmiah5@fordham.edu",
+  "message": "Hi there, this is a test message!",
+  "phoneNumber": "3472697248",
+  "subject": "First Contact"
+}
+```
+📤 Response:
+json
+```json
+{
+  "status": "success",
+  "message": "Form data saved successfully!"
 }
 ```
 
