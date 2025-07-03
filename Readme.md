@@ -75,8 +75,8 @@ open index.html
 The contact form connects to the backend API to store submissions.
 ```
 
-```
-Endpoint:
+
+### Endpoint:
 
 https://portfolio-backend-vk0m.onrender.com/submit-form
 Example Payload:
@@ -90,7 +90,7 @@ Example Payload:
 }
 ```
 
-```
+
 📈 Future Enhancements
 🌱 Add dark mode toggle for better accessibility
 
