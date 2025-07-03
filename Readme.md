@@ -1,138 +1,113 @@
-# 💼 Portfolio Backend – Jabed Miah
+# 🌐 Portfolio Frontend – Jabed Miah
 
-This is the **backend server** of my full-stack personal portfolio website, built to power a contact form and securely handle user messages. It handles incoming API calls, validates and saves user data to MongoDB Atlas, and confirms success back to the frontend. This backend also logs activity live via Render and supports production deployment.
+This repository contains the **frontend** of my personal portfolio website. Designed with a clean and modern UI, it showcases my projects, experience, and skills while allowing visitors to reach out directly via a secure contact form.
 
-📍 Frontend Live: [https://jabed1234.github.io/Portfolio-frontend/](https://jabed1234.github.io/Portfolio-frontend/)
+🔗 **Live Website**: [https://jabed1234.github.io/Portfolio-frontend/](https://jabed1234.github.io/Portfolio-frontend/)  
+📦 **Backend API**: [Portfolio Backend Repo](https://github.com/Jabed1234/Portfolio-backend)  
 
-## 📦 Features
+---
 
-- ✅ REST API endpoint to handle contact form submissions
-- 🧠 Validates and parses user-submitted data
-- 🗄️ Stores messages in a cloud MongoDB Atlas database
-- 🔄 Sends response to the frontend confirming success
-- 🚀 Hosted on Render, auto-deploys on `git push`
-- 🔐 Secured with environment variables (dotenv)
+## 🧑‍💻 Full-Stack Integration
+
+This frontend is part of a complete **full-stack portfolio project**:  
+
+- **Frontend (GitHub Pages)**  
+  Displays an interactive contact form and handles API requests with JavaScript.  
+- **Backend (Render)**  
+  Node.js + Express API receives form data and processes it securely.  
+- **Database (MongoDB Atlas)**  
+  Persists visitor messages for future reference.  
+
+🔁 **Workflow:**
+Visitor fills contact form → Frontend sends API request → Backend validates & saves → Database stores data → Frontend shows success message
+
+---
+
+## ✨ Features
+
+- 🎨 **Responsive Design** – Mobile-friendly and optimized for various screen sizes  
+- 📝 **Contact Form** – Lets visitors send messages directly from the site  
+- 🔗 **API Integration** – Sends form data to backend REST API  
+- 💬 **Dynamic Feedback** – Displays success or error notifications after submission  
+- ⚡ **Smooth Animations** – Enhanced user experience with CSS and JavaScript animations  
+- 🖥️ **Static Hosting** – Deployed on GitHub Pages for fast global delivery  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer          | Tech                     |
-|----------------|--------------------------|
-| Server         | Node.js + Express        |
-| Database       | MongoDB Atlas + Mongoose |
-| Deployment     | Render                   |
-| Environment    | dotenv                   |
-| API Style      | REST                     |
+| Category        | Technologies              |
+|------------------|---------------------------|
+| **Languages**    | HTML5, CSS3, JavaScript   |
+| **Hosting**      | GitHub Pages              |
+| **API Requests** | Fetch API (AJAX)          |
+| **Deployment**   | Git + GitHub              |
+| **Design**       | Flexbox, CSS Grid, Animations |
 
 ---
 
-## 📡 Endpoint
+## 🔗 Live Demo
 
-POST /submit-form
+🌍 **Website:** [jabed1234.github.io/Portfolio-frontend](https://jabed1234.github.io/Portfolio-frontend/)  
+📡 **Backend API Endpoint:** [Render Backend API](https://portfolio-backend-vk0m.onrender.com)  
 
-pgsql
-Copy
-Edit
+---
 
-### Payload (JSON)
-```json
-{
-  "name": "Jabed Miah",
-  "email": "jmiah3153@cimsnyc.org",
-  "message": "Hi there, this is my first message!",
-  "phoneNumber": "3472697248",
-  "subject": "First Email"
-}
-### Payload (JSON)
+## 📂 Folder Structure
 
-Response
-json
-Copy
-Edit
-{
-  "status": "success",
-  "message": "Form data saved successfully!"
-}
-🖥️ Render Live Logs Example
-Here's a live capture of the server saving data on Render:
+Portfolio-frontend/
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+│ ├── images/
+│ ├── icons/
+└── README.md
 
+---
 
-It confirms:
+## 📥 Running Locally
 
-Server running on port 10000
-
-Connected to MongoDB
-
-Entry successfully saved with full metadata
-
-🧾 MongoDB Document Example
-Here's a saved document from the MongoDB Atlas collection:
-
-
-Data saved includes:
-
-name, email, message, phoneNumber, subject, and automatic ObjectId + timestamp
-
-🚀 Deployment
-This app is deployed using Render.
-
-Environment Variables: stored securely in Render using .env
-
-MONGO_URI: Your MongoDB Atlas connection string
-
-PORT: The port Render assigns dynamically (e.g. 10000)
-
-Build/Start Command:
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Jabed1234/Portfolio-frontend.git
+   cd Portfolio-frontend
+Open index.html in your browser
 
 bash
 Copy
 Edit
-node server.js
-🔗 Integration with Frontend
-The backend is connected to my frontend hosted via GitHub Pages:
+open index.html
+📡 API Integration
+The contact form sends data via POST to the backend API:
 
-🔗 https://jabed1234.github.io/Portfolio-frontend/
-
-When the user submits a form on that site:
-
-The data is POSTed to the Render API endpoint.
-
-The backend saves it to MongoDB.
-
-A success message is returned and shown in the UI.
-
-⚙️ Running Locally
-Clone and run the backend locally:
+Endpoint:
 
 bash
 Copy
 Edit
-git clone https://github.com/Jabed1234/Portfolio-backend.git
-cd Portfolio-backend
-npm install
-touch .env
-# Add your MongoDB URI to .env:
-# MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/portfolio
-node server.js
+https://portfolio-backend-vk0m.onrender.com/submit-form
+Example Payload:
+
+{
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "message": "Hello Jabed, your portfolio is impressive!"
+}
+📈 Future Enhancements
+🌱 Add dark mode toggle
+
+📨 Inline form validation before submission
+
+📷 Optimize images for faster load times
+
+🌐 Add multi-language support
+
 📄 License
 All rights reserved © Jabed Miah
+This repository is proprietary. Do not copy or redistribute without permission.
 
-This project is not open for redistribution or reuse. Do not copy, fork, or republish the code without written permission.
+📬 Contact
+📧 Email: jmiah5@fordham.edu
 
-📌 Future Improvements
-Add form rate-limiting to prevent spam
-
-Add email notifications (e.g. Nodemailer integration)
-
-Admin dashboard for viewing messages
-
-Better schema validation with Joi or Zod
-
-Full logging + monitoring setup (e.g. LogRocket, Sentry)
-
-💬 Contact
-Want to collaborate or have a question?
-
-📧 jmiah3153@cimsnyc.org
-🌐 Portfolio Frontend
+🌐 Portfolio: https://jabed1234.github.io/Portfolio-frontend/
