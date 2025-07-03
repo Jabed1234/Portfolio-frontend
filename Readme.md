@@ -66,6 +66,7 @@ Open index.html in your browser
 
 🖱️ Double-click index.html, or
 ```
+
 ```
 🖥️ Run in terminal:
 
@@ -73,6 +74,7 @@ open index.html
 📡 API Integration
 The contact form connects to the backend API to store submissions.
 ```
+
 Endpoint:
 
 bash
