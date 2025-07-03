@@ -18,10 +18,6 @@ This frontend is part of a complete full-stack project:
 🔁 **Workflow:**
 User submits contact form → Frontend sends API request → Backend validates & saves → Database persists data → Frontend shows success message
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ✨ Features
@@ -59,9 +55,6 @@ Double-click index.html, or
 
 Run:
 
-bash
-Copy
-Edit
 open index.html
 📡 API Integration
 The contact form sends data via POST to the backend API:
@@ -69,14 +62,10 @@ The contact form sends data via POST to the backend API:
 Endpoint:
 
 bash
-Copy
-Edit
 https://portfolio-backend-vk0m.onrender.com/submit-form
 Example Payload:
 
 json
-Copy
-Edit
 {
   "name": "Jane Doe",
   "email": "jane.doe@example.com",
@@ -95,8 +84,6 @@ Edit
 MIT License © 2025 Jabed Miah
 
 text
-Copy
-Edit
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
