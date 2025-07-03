@@ -1,4 +1,4 @@
-# 🌐 Portfolio Frontend – Jabed Miah
+# 🌐 Portfolio Frontend – 
 
 This repository contains the **frontend** of my personal portfolio website. Designed with a clean and modern UI, it showcases my projects, experience, and skills while allowing visitors to reach out directly via a secure contact form.
 
