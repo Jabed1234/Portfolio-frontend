@@ -111,7 +111,8 @@ json
 
 📷 Optimize images for faster load times
 
-🌐 Add multi-language support for global visitors
+🌐Add multi-language support for global visitors
+
 ---
 
 ### 📄 License:
