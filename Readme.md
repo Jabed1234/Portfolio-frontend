@@ -75,20 +75,21 @@ open index.html
 The contact form connects to the backend API to store submissions.
 ```
 
+```
 Endpoint:
-
-bash
 
 https://portfolio-backend-vk0m.onrender.com/submit-form
 Example Payload:
 
-json
+```json
 
 {
   "name": "Jane Doe",
   "email": "jane.doe@example.com",
   "message": "Hello Jabed, your portfolio is impressive!"
 }
+```
+```
 📈 Future Enhancements
 🌱 Add dark mode toggle for better accessibility
 
