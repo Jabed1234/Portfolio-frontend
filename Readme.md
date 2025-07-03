@@ -24,9 +24,6 @@ Backend validates & saves data to MongoDB
 ↓
 Frontend displays success or error message
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -64,18 +61,12 @@ Edit
 
 ---
 
-## 📥 Running Locally
-
-### 📝 Steps
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Jabed1234/Portfolio-frontend.git
-   cd Portfolio-frontend
+📥 Running Locally
 Open index.html in your browser
 
-Double-click index.html, or
+🖱️ Double-click index.html, or
 
-Run:
+🖥️ Run in terminal:
 
 bash
 Copy
@@ -87,14 +78,12 @@ The contact form connects to the backend API to store submissions.
 Endpoint:
 
 bash
-Copy
-Edit
+
 https://portfolio-backend-vk0m.onrender.com/submit-form
 Example Payload:
 
 json
-Copy
-Edit
+
 {
   "name": "Jane Doe",
   "email": "jane.doe@example.com",
@@ -113,8 +102,6 @@ Edit
 MIT License © 2025 Jabed Miah
 
 text
-Copy
-Edit
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
 in the Software without restriction, including without limitation the rights
@@ -134,8 +121,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 📬 Contact
 📧 Email: jmiah5@fordham.edu
-
 🌐 Portfolio: https://jabed1234.github.io/Portfolio-frontend/
-
-
 
