@@ -1,7 +1,7 @@
 //All the different thing I want it to animate
 const words = [
   "Software Engineer",
-  "web Developer",
+  "Web Developer",
   "Cybersecurity Analyst",
   "Data Scientist",
 ];
